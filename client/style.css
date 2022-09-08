@@ -631,10 +631,6 @@ video {
   grid-row-start: 1;
 }
 
-.row-start-2 {
-  grid-row-start: 2;
-}
-
 .row-start-3 {
   grid-row-start: 3;
 }
@@ -1007,11 +1003,6 @@ video {
   color: rgb(66 131 218 / var(--tw-text-opacity));
 }
 
-.text-grouparooblue {
-  --tw-text-opacity: 1;
-  color: rgb(66 131 218 / var(--tw-text-opacity));
-}
-
 .text-tailslidenavy {
   --tw-text-opacity: 1;
   color: rgb(40 55 76 / var(--tw-text-opacity));
@@ -1049,9 +1040,9 @@ video {
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-white:hover {
+.hover\:bg-tailslidenavy:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(40 55 76 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gray-300:hover {
@@ -1059,9 +1050,9 @@ video {
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
-.hover\:text-airbytepurple:hover {
+.hover\:text-white:hover {
   --tw-text-opacity: 1;
-  color: rgb(40 55 76 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -1123,11 +1114,6 @@ video {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 }
 
