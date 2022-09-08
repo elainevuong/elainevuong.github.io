@@ -5,4 +5,4 @@ Connect with me if you like what you see!
 
 This website was built with TailwindCSS. 
 
-Check out my site [here](www.elaineytvuong.com).
+Check out my site [here](https://www.elaineytvuong.com).
