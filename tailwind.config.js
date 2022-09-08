@@ -11,8 +11,11 @@ module.exports = {
     extend: {
       colors: {
         midnightblue: "#0a0440", 
-        grouparooblue: "#29abe2", 
-        airbytepurple: "#9579fd",
+        grouparooblue: "#4283da", 
+        airbytepurple: "#28374c",
+        tailslideblue: "#4283da",
+        tailslidenavy: "#28374c",
+        tailslideorange: "#f09637",
         link: {
           normal: "#4c74b9",
           decoration: "#d2dcee",
