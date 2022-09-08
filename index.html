@@ -29,8 +29,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <script src="script.js"></script>
-  <link rel="stylesheet" href="client/style.css">
-</head>
+    <link rel="stylesheet" href="client/style.css">
+  </head>
+
   <body>
     <!-- Contact Buttons -->
     <div class="flex flex-col fixed z-50 w-12 text-2xl space-y-2 top-3 right-3">
@@ -152,7 +153,8 @@
             <div
               class="absolute inset-x-0 h-1/2 bg-white lg:hidden"
               aria-hidden="true"
-            ></div>
+            >
+            </div>
             <div class="max-w-sm mx-auto px-4 sm:px-6 lg:p-0">
               <div class="aspect-w-1 aspect-h-1">
                 <img
@@ -289,6 +291,7 @@
           "
         >
           <div class="lg:grid lg:grid-cols-12">
+            <!-- Tailslide Image -->
             <div
               class="
                 relative
@@ -303,7 +306,8 @@
               <div
                 class="absolute inset-x-0 h-1/2 bg-white lg:hidden"
                 aria-hidden="true"
-              ></div>
+              >
+              </div>
               <div class="max-w-sm mx-auto px-4 sm:px-6 lg:p-0">
                 <div class="aspect-w-1 aspect-h-1">
                   <a href="https://tailslide-io.github.io">
@@ -313,12 +317,11 @@
                       alt=""
                     />
                   </a>
-                  <!-- width="200" -->
                 </div>
               </div>
-              
             </div>
 
+            <!-- Description Text -->
             <div
               class="
                 relative
@@ -346,54 +349,38 @@
                   lg:col-start-4 lg:col-span-6
                 "
               >
-              <p class="text-2xl text-white mt-6">
-                <a
-                class="text-tailslidewhite hover:underline"
-                href="https://tailslide-io.github.io/"
-                target="_blank"
-                >Tailslide</a
-                > is an open-source, self-hosted feature flag framework 
-                designed for organizations to easily and safely 
-                deploy new features with built-in circuit-breaking and automatic failure recovery.
-              </p>
-              <p class="text-2xl text-white mt-6"> 
-                It consists of a feature flag management system specifically built for 
-                new feature deployment - allowing for granular toggling of individual features, gradual rollout
-                to a user base, and user whitelisting for testing during development. 
-              </p>
+                <p class="text-2xl text-white mt-6">
+                  <a
+                  class="text-tailslidewhite hover:underline"
+                  href="https://tailslide-io.github.io/"
+                  target="_blank"
+                  >Tailslide</a
+                  > is an open-source, self-hosted feature flag framework 
+                  designed for organizations to easily and safely 
+                  deploy new features with built-in circuit-breaking and automatic failure recovery.
+                </p>
 
-              <p class="text-2xl text-white mt-6"> 
-                Failure protection is implemented with a circuit breaker stability pattern, 
-                giving developers peace of mind with fully automated recovery.
-              </p>
-              <br>
                 <div class="wrap mx-auto">
                   <div class="grid grid-rows-10 grid-cols-6">
                     
+                    <!-- Architecture Diagram -->
                     <div class="row-start-1 col-start-2 col-span-5 self-end py-12">
                       <img class="object-cover rounded-lg" src="client/public/assets/architecture.png" alt="">
                     </div>
-                    <div class="row-start-2 col-start-1 col-span-5 self-end ">
-                      <img class="rounded-lg" src="client/public/assets/overview-katherine_v2.d83e685a.gif" alt="">
-                    </div>
+                  </div>
+                </div>
 
+                <p class="text-2xl text-white mt-6"> 
+                  It consists of a feature flag management system specifically built for 
+                  new feature deployment - allowing for granular toggling of individual features, gradual rollout
+                  to a user base, and user whitelisting for testing during development. 
+                </p>
 
-                    <div class="row-start-2 col-start-1 col-span-5 self-end">
-                      <video
-                        class="object-cover rounded-lg"
-                        autoplay
-                        loop
-                        muted
-                        playsinline
-                      >
-                        <source
-                          src="client/public/assets/circuitlooping.mp4"
-                          type="video/mp4"
-                        />
-                      </video>
-                    </div>
-
-                    <div class="row-start-3 col-start-2 col-span-5 self-end py-12">
+                <div class="wrap mx-auto">
+                  <div class="grid grid-rows-10 grid-cols-6">
+                    
+                    <!-- Flag Looping -->
+                    <div class="row-start-2 col-start-1 col-span-5 self-end py-12">
                       <video
                         class="object-cover rounded-lg"
                         autoplay
@@ -407,7 +394,59 @@
                         />
                       </video>
                     </div>
+
                   </div>
+                </div>
+
+                <p class="text-2xl text-white mt-6"> 
+                  Failure protection is implemented with a circuit breaker stability pattern, 
+                  giving developers peace of mind with fully automated recovery.
+                </p>
+              
+                <br>
+
+                <!-- Images Section -->
+                <div class="wrap mx-auto">
+                  <div class="grid grid-rows-10 grid-cols-6">
+                    
+                    <!-- <div class="row-start-1 col-start-2 col-span-5 self-end py-12">
+                      <img class="object-cover rounded-lg" src="client/public/assets/architecture.png" alt="">
+                    </div>
+
+      
+                    <div class="row-start-2 col-start-1 col-span-5 self-end py-12">
+                      <video
+                        class="object-cover rounded-lg"
+                        autoplay
+                        loop
+                        muted
+                        playsinline
+                      >
+                        <source
+                          src="client/public/assets/flaglooping.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div> -->
+
+                    <!-- Circuit Looping  -->
+                    <div class="row-start-3 col-start-2 col-span-5 self-end">
+                      <video
+                        class="object-cover rounded-lg"
+                        autoplay
+                        loop
+                        muted
+                        playsinline
+                      >
+                        <source
+                          src="client/public/assets/circuitlooping.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                  </div>
+
+                  <!-- Tailslide Case Study Button -->
                   <div class="grid place-items-center">
                     <a
                       class="
@@ -432,17 +471,17 @@
                       "
                       href="https://tailslide-io.github.io/"
                       target="_blank"
-                      >Read Tailslide Case Study</a
                     >
+                      Read Tailslide Case Study
+                    </a>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
-          </div>
-
+        </div>
       </div>
     </div>
-  </div>
 
     <!-- Other Projects -->
     <div class="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-16 lg:pb-28 lg:px-8">
